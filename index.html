@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <link rel="stylesheet" href="./dist/css/main.css">
-  //<link rel="stylesheet" href="./test.css">
+  <!-- <link rel="stylesheet" href="./test.css"> -->
 
   <title>Frontend Mentor | Profile card component</title>
 
@@ -18,18 +18,38 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <section class="card">
+      <figure>
 
-  80K
-  Followers
+      </figure>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
+      <div itemscope itemtype="https://schema.org/Person" class="card__body">
+        <strong>
+          <span itemprop="givenName">Victor</span>
+          <span itemprop="familyName">Crest</span>
+        </strong>
+        <span>26</span>
+        <span itemprop="homeLocation">London</span>
+      </div>
+      <div card="card__footer">
+        <ul class="card__stack--horizontal">
+          <li>
+            80K
+            Followers
+          </li>
+          <li>
+            803K
+            Likes
+          </li>
+          <li>
+            1.4K
+            Photos
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
