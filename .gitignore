@@ -15,3 +15,8 @@
 .DS_Store
 
 .prettierignore
+
+
+#   map files are not part of your source code, and are not required 
+#   for the site to function, so they can safely be left out of your Git repository
+*.map
