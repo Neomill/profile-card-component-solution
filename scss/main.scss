@@ -1,7 +1,12 @@
+@import './variable';
 @import './reset';
+@import './card';
+
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 body{
-  
-
-
+    background-color: $dark-grayish-blue;
+    font-family: 'Kumbh Sans', sans-serif;
 }

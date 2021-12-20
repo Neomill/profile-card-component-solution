@@ -20,17 +20,23 @@
 <body>
   <main>
     <section class="card">
-      <figure>
 
+      <figure>
+        <img src="./images/bg-pattern-card.svg" alt="background pattern">
+        <img class="card__avatar" src="./images/image-victor.jpg" alt="avatar">
       </figure>
 
       <div itemscope itemtype="https://schema.org/Person" class="card__body">
-        <strong>
-          <span itemprop="givenName">Victor</span>
-          <span itemprop="familyName">Crest</span>
-        </strong>
-        <span>26</span>
-        <span itemprop="homeLocation">London</span>
+        
+        <div class="card_basic_info">
+          <strong>
+            <span itemprop="givenName">Victor</span>
+            <span itemprop="familyName">Crest</span>
+          </strong>
+          <span>26</span>
+        </div>
+
+        <div itemprop="homeLocation">London</div>
       </div>
       <div card="card__footer">
         <ul class="card__stack--horizontal">
