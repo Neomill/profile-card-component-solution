@@ -1,0 +1,44 @@
+.card{
+    color: $dark-grayish-blue;
+    font-weight: 400;
+
+    height: 375px;
+    width: 90%;
+    max-width: 350px;
+
+    background-color: white;
+    overflow: hidden;
+
+    border-radius: 0.9375rem;
+
+    figure{
+        position: relative;
+    }
+
+    #{&}__avatar{
+        border: solid 5px white;
+        width: 5.9375rem;
+        border-radius: 3.125rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    }
+}
+
+.card__body{
+    text-align: center;
+
+    .card_basic_info{
+        margin-top: 4.75rem;
+    }
+
+    .card_basic_info strong{
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: $very-dark-desaturated-blue;
+    }
+
+}
+
+
