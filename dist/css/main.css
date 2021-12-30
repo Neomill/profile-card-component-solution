@@ -32,6 +32,13 @@
   bottom: -40px;
 }
 
+.card hr {
+  margin: 1.625rem 0;
+  height: 1px;
+  background-color: #E7E7E7;
+  border: none;
+}
+
 .card__body {
   text-align: center;
 }
@@ -46,8 +53,34 @@
   color: #2d3248;
 }
 
+.card__footer ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.card__stack--horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card__stack--horizontal li {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card__stack--horizontal li h6 {
+  font-weight: 400;
+  letter-spacing: .1rem;
+  color: #6a6f81;
+}
+
 body {
-  background-color: #6a6f81;
+  background-color: #19a2ae;
   font-family: 'Kumbh Sans', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

@@ -24,6 +24,13 @@
         transform: translateX(-50%);
         bottom: -40px;
     }
+
+    hr{
+        margin: 1.625rem 0;
+        height: 1px;
+        background-color: $light-gray-color;
+        border: none;
+    }
 }
 
 .card__body{
@@ -38,7 +45,26 @@
         font-weight: 700;
         color: $very-dark-desaturated-blue;
     }
-
 }
 
+.card__footer{
+    ul li{
+        list-style: none;
+        text-align: center;
+    }
+}
 
+.card__stack--horizontal{
+    display: flex;
+    justify-content: space-evenly;
+
+    li{
+        @include type1header;
+    }
+
+    li h6{
+        font-weight: 400;
+        letter-spacing: .1rem;
+        color: $dark-grayish-blue;
+    }
+}
