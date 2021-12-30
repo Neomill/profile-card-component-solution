@@ -8,6 +8,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 body{
+    height: inherit;
     background-color: $dark-cyan;
     font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    height: inherit;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution{
+    position: relative;
+    text-align: center;
+    bottom: 0;
 }
